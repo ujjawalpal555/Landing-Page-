@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    /* background-image:url(https://i0.wp.com/picjumbo.com/wp-content/uploads/feminine-soft-pastel-colors-splash-background-free-photo.jpg?w=600&quality=80); */
+    background-image: url(https://www.bhmpics.com/downloads/wallpaper-thiet-ke/1.3b8ad2c7b1be2caf24321c852103598a-scaled.jpg);
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color:white;
+    bottom: 5%;
+}
+.text .h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);  
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 400px;
+}
+.rtext{
+    display: flex;
+    width: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width:30%;
+    min-height: inherit;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHBwcHBwoPBwcHBw0HBwcHCg8ICQcWFREiIiARHxMYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NFysZFRkrKystKzcrKy0rKysrKysrKysrKzcrLSsrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAL4BCgMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQMCBAf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAERL/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQQFAwYC/8QAFxEBAQEBAAAAAAAAAAAAAAAAABESE//aAAwDAQACEQMRAD8A+XCD6uvSKIFIogUUQKKIoBQKFKCgAUACgAAAUAAAAAFQAAAAVFByIPKv3FECiiBRRBaKIFIoBQAKQAKQVBaKIFIogVFECiiBRRAoogUUQWiq5UpHAg8K9IogUigUqQAWkUQKRRApFECkUQWkUQKRRApFEFpFECkUQKRRFKQAKkFQWkUqKUjilQZ69YtKgUiiBSLRApFKgtSKAUgAUgAtIAFIAFIAFIALSABSKIFIogVIoguiKrlSkcgM2ntAApAAqQANEAF0QAKQAKQAWkACkACpAApABaQAKRRFKQAWkBFKkFQKQRRlrRlBQqZQUWmUFCmUFCkQUWpEFCkQUNGUFF0ZQUNEQUNEQVF0kACkACkADRAFWkRQKkUjqEZNNeHMI6hF0YcRY6hDSZcEdxIaMoLCLpMoLCGjLkdQhoy5HUIuky5HUIaMuRYQ0ZQWEXSZQWENGUIsCmUFF0mUFDRlBQ0ZRYKtMtYRpkjBt0ebOJGuUi7TmzhGkIu05s4RpkybObOJGmSLtObPJlpCGzmzyRpCLtObOJGmSGzmzhGkIaTmzhGkIukwzhHeSGzDOEaQi6TDOEaQhswzhHcIu0w4hHcIaMOIkaRIu0w4ix1Fhow9OTLXJlztuxyZZMtcpk2cmWTLXJldpyZZMtcmTacmUTLXJldpyZZMtcmTZyZZMtcpldpyZ5TLXJk2nJlky1ymV2nJnEjXJldnJlCNckNpyZQy0yZNpzZxI1yZXac2WTLTJk2c2cI0yZXac2cSNcmTac2WVjvK5Xac3ryZaxI5u3c5s8mWkIujmyyRrCGk5ssmWsMmzkxyZbZTK7TkyyZa5Mm05MspltkyuzkxyZa5Mm05Mspltkyu05McmWuTJs5Mspltkyu05McmWuTJtOTLJlrkyu05McmWuTJtOTLJlrkyuzkyymWuTJtOTLJlrkyu05PQOojDXUykIpCmUhFhCmUhFCplIRRaZSEUKZSEUNGUIoUykSOhdGXMI6DSZcwjohoy5hHRDRlzCOoRdJlxDLuENGXGTLuC6MOMmXUIaTDjK5dhow6FGdpiI6AjlVCkcqpCpHI6CkQUWkcjoKRyOgpHMFCkSChSIKFIkFCmUgotSIKFIgoUiChSIKLSP//Z);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+    color:beige;
+}
+.b1 p{
+    color:beige;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://img.freepik.com/premium-vector/realistic-golden-luxury-background_52683-67820.jpghttps://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_23-2149151922.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    color: bisque;
+    padding: 30px;
+}
+.b2 .up p{
+    color:bisque;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://img.freepik.com/premium-vector/elegant-dark-background-with-golden-details-dots_94047-681.jpghttps://img.freepik.com/free-vector/elegant-dark-background-with-golden-details_23-2148446126.jpg);
+    background-size: cover;
+    color: burlywood;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTslGvfWLAiyRMdo368A_1RsEDBmrEkf52keQ&s);
+    background-size: cover;
+    color: blanchedalmond;
+    font-size: medium;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vh 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width:100%;
+        margin-left: initial ;
+    }
+}
+
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width:100%;
+        min-height: 30vh;
+    }
+    .b2{
+        width:100%;
+    }
+    .b2 up{
+        min-height: 20vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    
+}
+}
